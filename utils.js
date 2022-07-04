@@ -6,7 +6,7 @@ module.exports = {
 
   uid : function ( len ){
     var str     = '';
-    var src     = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var src     = 'dABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     var src_len = src.length;
     var i       = len;
 
