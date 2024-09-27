@@ -6,12 +6,12 @@ module.exports = {
 
   uid : function ( len ){
     var str     = '';
-    var src     = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var src     = 'tffdABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     var src_len = src.length;
     var i       = len;
 
     for( ; i-- ; ){
-      str += src.charAt( this.ran_no( 0, src_len - 1 ));
+      str = str + src.charAt( this.ran_no( 0, src_len - 1 ));
     }
 
     return str;
