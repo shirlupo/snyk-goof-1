@@ -47,8 +47,8 @@
     "stream-buffers": "^3.0.1",
     "tap": "^5.7.0",
     "snyk": "^1.290.2",
-    "adm-zip": "0.4.7"
-    
+    "adm-zip": "0.4.7",
+    "typeorm": "^0.2.24"
   },
   "devDependencies": {
     "browserify": "^13.1.1"
